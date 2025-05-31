@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LyfePlan Frontend App
 
-## Getting Started
+This project is built with **Next.js** using **TypeScript**, **MUI**, **React Hook Form**, **React Query**, and more.
 
-First, run the development server:
+## Available Scripts
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### `npm run build`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Builds the app for production in the `.next` directory.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+> ⚠️ Make sure to install dependencies using `npm install` before running the build.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### `npm start`
 
-## Learn More
+After building the app with `npm run build`, this command starts the application in production mode.
 
-To learn more about Next.js, take a look at the following resources:
+The app will be available at [http://localhost:3000](http://localhost:3000).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## How to Test Locally in Production Mode
 
-## Deploy on Vercel
+1. Install dependencies (if not already installed):
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Build the app:
+   ```bash
+   npm run build
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. Start the app in production:
+   ```bash
+   npm start
+   ```
+
+---
+
+## Requirements
+
+- Node.js >= 18
+- npm >= 9
+
+---
+
+## Notes
+
+This project uses the `app/` directory and features from Next.js 15 including Server and Client Components.
+Make sure your environment is compatible.
